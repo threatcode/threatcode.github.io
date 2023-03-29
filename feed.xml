@@ -39,7 +39,7 @@
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/versionize.html&quot;&gt;versionize&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/versionize.html&quot;&gt;versionize&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/versionize&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -216,7 +216,7 @@
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/nats.html&quot;&gt;nats&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/nats.html&quot;&gt;nats&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/nats&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -351,7 +351,7 @@ attacker-controlled value it was given&lt;/li&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/async-nats.html&quot;&gt;async-nats&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/async-nats.html&quot;&gt;async-nats&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/async-nats&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -485,7 +485,7 @@ attacker-controlled value it was given&lt;/li&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/git-hash.html&quot;&gt;git-hash&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/git-hash.html&quot;&gt;git-hash&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/git-hash&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -580,7 +580,7 @@ to using gix-hash to continue receiving updates.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/git-path.html&quot;&gt;git-path&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/git-path.html&quot;&gt;git-path&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/git-path&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -675,7 +675,7 @@ to using gix-path to continue receiving updates.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/buf_redux.html&quot;&gt;buf_redux&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/buf_redux.html&quot;&gt;buf_redux&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/buf_redux&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -780,7 +780,7 @@ to using gix-path to continue receiving updates.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/openssl&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -908,7 +908,7 @@ not modifying the value.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/openssl&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -1045,7 +1045,7 @@ which can perform arbitrary file reads.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/openssl&quot;&gt;crates.io&lt;/a&gt;)
         
         
@@ -1180,7 +1180,7 @@ which can perform arbitrary file reads.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/rmp-serde.html&quot;&gt;rmp-serde&lt;/a&gt;
+        &lt;a href=&quot;https://threatcode.github.io/advisory-db/packages/rmp-serde.html&quot;&gt;rmp-serde&lt;/a&gt;
           (&lt;a href=&quot;https://crates.io/crates/rmp-serde&quot;&gt;crates.io&lt;/a&gt;)
         
         

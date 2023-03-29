@@ -3,7 +3,7 @@ function search(term, redirect) {
 
     // Try to open destination directly, only display search page if multiple results
     if (packages.includes(term)) {
-        window.open('/packages/'+encodeURIComponent(term)+'.html','_self');
+        window.open('https://threatcode.github.io/advisory-db/packages/'+encodeURIComponent(term)+'.html','_self');
         return false;
     }
     if (term in ids && ids[term].length == 1) {
