@@ -54,7 +54,7 @@ header a, footer a {
 
 /* Add an icon after external links in advisory content */
 .advisory article a:not(.floating-menu a):not([href^="/"]):not([href^="#"])::after {
-  background: url("https://threatcode.github.io/advisory-db/img/external-link.svg") center right no-repeat;
+  background: url("/img/external-link.svg") center right no-repeat;
   display: inline-block;
   content: " ";
   width: 16px;

@@ -3,11 +3,11 @@ function search(term, redirect) {
 
     // Try to open destination directly, only display search page if multiple results
     if (packages.includes(term)) {
-        window.open('https://threatcode.github.io/advisory-db/packages/'+encodeURIComponent(term)+'.html','_self');
+        window.open('/packages/'+encodeURIComponent(term)+'.html','_self');
         return false;
     }
     if (term in ids && ids[term].length == 1) {
-        window.open('https://threatcode.github.io/advisory-db/advisories/'+encodeURIComponent(ids[term][0])+'.html','_self');
+        window.open('/advisories/'+encodeURIComponent(ids[term][0])+'.html','_self');
         return false;
     }
 
@@ -32,7 +32,7 @@ function search(term, redirect) {
         ids[term].forEach(function (item, index) {
             var li = document.createElement('li');
             var a = document.createElement('a');
-            a.setAttribute('href', "https://threatcode.github.io/advisory-db/advisories/"+encodeURIComponent(item)+".html");
+            a.setAttribute('href', "/advisories/"+encodeURIComponent(item)+".html");
             a.appendChild(document.createTextNode(item));
             li.appendChild(a)
             ul.appendChild(li)
