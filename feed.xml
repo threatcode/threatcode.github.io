@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>RustSec Advisories</title><id>https://rustsec.org/feed.xml</id><updated>2023-03-25T12:00:00+00:00</updated><author><name>RustSec</name></author><icon>https://rustsec.org/favicon.ico</icon><link href="https://rustsec.org/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rustsec.org/" rel="alternate" type="text/html"/><subtitle xml:lang="en">Security advisories filed against Rust crates</subtitle><entry><title>RUSTSEC-2023-0030: Vulnerability in versionize</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0030.html</id><updated>2023-03-25T12:00:00+00:00</updated><category term="memory-exposure"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0030.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0030: Vulnerability in versionize"/><published>2023-03-25T12:00:00+00:00</published><summary xml:lang="en">`Versionize::deserialize` implementation for `FamStructWrapper&amp;lt;T&amp;gt;` is lacking bound checks, potentially leading to out of bounds memory accesses</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/threatcode/threatcode.github.io/commits/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/threatcode/threatcode.github.io/edit/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
