@@ -1,7 +1,7 @@
 # Reporting Vulnerabilities
 
 To add an advisory to the RustSec database, open a [Pull Request] against
-[this](https://github.com/threatcode/threatcode.github.io) repository containing the new advisory:
+[this](https://github.com/RustSec/advisory-db) repository containing the new advisory:
 
 ### Required Steps
 

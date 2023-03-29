@@ -4,21 +4,19 @@ id = "RUSTSEC-0000-0000"
 package = "crate-name"
 date = "2020-01-31"
 url = "https://example.com"
-# Valid categories: "code-execution", "crypto-failure", "denial-of-service", "file-disclosure"
-# "format-injection", "memory-corruption", "memory-exposure", "privilege-escalation"
 categories = ["code-execution", "privilege-escalation"]
 keywords = ["example", "freeform", "keywords"]
 #aliases = ["CVE-YYYY-NNNN"]
 #cvss = "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
 
 [versions]
-patched = [">= 1.2.3, < 1.3.0", ">= 1.3.4"]
-unaffected = ["<= 0.1.2"]
+patched = [">= 1.2.3"]
+unaffected = ["0.1.2"]
 
 [affected]
 #arch = ["x86"]
 #os = ["windows"]
-#functions = { "crate_name::MyStruct::vulnerable_fn" = [">= 1.3.0, < 1.3.4"] }
+functions = { "crate_name::MyStruct::vulnerable_fn" = ["< 1.2.3"] }
 ```
 
 # RustSec Advisory Template - Advisory Title Goes Here
@@ -28,7 +26,7 @@ This is an example template for a RustSec advisory. Please copy this to
 
 In this section of the advisory you can write an extended description
 of the vulnerability, will be converted into HTML and rendered at
-<https://threatcode.github.io/advisory-db>.
+<https://rustsec.org>.
 
 - Markdown formatted
 - TOML "front matter". See `README.md` for schema.

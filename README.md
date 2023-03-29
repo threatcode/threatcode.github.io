@@ -1,14 +1,14 @@
-# Advisory Database
+# RustSec Advisory Database
 
 [![Build Status][build-image]][build-link]
-![Maintained: Q1 2023][maintained-image]
+![Maintained: Q2 2022][maintained-image]
 [![Project Chat][chat-image]][chat-link]
 
 The RustSec Advisory Database is a repository of security advisories filed
 against Rust crates published via https://crates.io. A human-readable version
-of the advisory database can be found at https://threatcode.github.io/advisories/.
+of the advisory database can be found at https://rustsec.org/advisories/.
 
-We also [export](https://github.com/threatcode/advisory-db/tree/osv) data to the [OSV](https://github.com/ossf/osv-schema) format.
+We also [export](https://github.com/rustsec/advisory-db/tree/osv) data to the [OSV](https://github.com/ossf/osv-schema) format.
 All our data is available on [osv.dev](https://osv.dev/list?ecosystem=crates.io&q=)
 and through their [API](https://osv.dev/#use-the-api).
 
@@ -29,8 +29,8 @@ and reporting (send PRs to add yours):
 To report a new vulnerability, open a pull request using the template below.
 See [CONTRIBUTING.md] for more information.
 
-<a href="https://github.com/threatcode/advisory-db/blob/main/CONTRIBUTING.md">
-  <img alt="Report Vulnerability" width="250px" height="60px" src="https://threatcode.github.io/advisory-db/img/report-vuln-button.svg">
+<a href="https://github.com/RustSec/advisory-db/blob/main/CONTRIBUTING.md">
+  <img alt="Report Vulnerability" width="250px" height="60px" src="https://rustsec.org/img/report-vuln-button.svg">
 </a>
 
 ## Advisory Format
@@ -85,6 +85,7 @@ categories = ["crypto-failure"]
 keywords = ["ssl", "mitm"]
 
 # Vulnerability aliases, e.g. CVE IDs (optional but recommended)
+# Request a CVE for your RustSec vulns: https://iwantacve.org/
 #aliases = ["CVE-2018-XXXX"]
 
 # Related vulnerabilities (optional)
@@ -115,8 +116,6 @@ keywords = ["ssl", "mitm"]
 functions = { "mycrate::MyType::vulnerable_function" = ["< 1.2.0, >= 1.1.0"] }
 
 # Versions which include fixes for this vulnerability (mandatory)
-# All selectors supported by Cargo are supported here:
-# https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
 # use patched = [] e.g. in case of unmaintained where there is no fix
 [versions]
 patched = [">= 1.2.0"]
@@ -137,7 +136,7 @@ All content in this repository is placed in the public domain.
 
 [build-image]: https://github.com/rustsec/advisory-db/workflows/Validate/badge.svg
 [build-link]: https://github.com/rustsec/advisory-db/actions
-[maintained-image]: https://img.shields.io/maintenance/yes/2023.svg
+[maintained-image]: https://img.shields.io/maintenance/yes/2022.svg
 [chat-image]: https://img.shields.io/badge/zulip-join_chat-blue.svg
 [chat-link]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code/
 
