@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>RustSec Advisories</title><id>https://threatcode.github.io/feed.xml</id><updated>2023-03-25T12:00:00+00:00</updated><author><name>RustSec</name></author><icon>https://threatcode.github.io/favicon.ico</icon><link href="https://threatcode.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://threatcode.github.io/" rel="alternate" type="text/html"/><subtitle xml:lang="en">Security advisories filed against Rust crates</subtitle><entry><title>RUSTSEC-2023-0030: Vulnerability in versionize</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0030.html</id><updated>2023-03-25T12:00:00+00:00</updated><category term="memory-exposure"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0030.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0030: Vulnerability in versionize"/><published>2023-03-25T12:00:00+00:00</published><summary xml:lang="en">`Versionize::deserialize` implementation for `FamStructWrapper&amp;lt;T&amp;gt;` is lacking bound checks, potentially leading to out of bounds memory accesses</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/versionize/RUSTSEC-2023-0030.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -179,8 +179,8 @@
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0029: Vulnerability in nats</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0029.html</id><updated>2023-03-25T12:00:00+00:00</updated><category term="crypto-failure"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0029.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0029: Vulnerability in nats"/><published>2023-03-25T12:00:00+00:00</published><summary xml:lang="en">TLS certificate common name validation bypass</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/nats/RUSTSEC-2023-0029.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/nats/RUSTSEC-2023-0029.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/nats/RUSTSEC-2023-0029.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/nats/RUSTSEC-2023-0029.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -314,8 +314,8 @@ attacker-controlled value it was given&lt;/li&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0027: Vulnerability in async-nats</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0027.html</id><updated>2023-03-24T12:00:00+00:00</updated><category term="crypto-failure"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0027.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0027: Vulnerability in async-nats"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">TLS certificate common name validation bypass</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/async-nats/RUSTSEC-2023-0027.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/async-nats/RUSTSEC-2023-0027.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/async-nats/RUSTSEC-2023-0027.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/async-nats/RUSTSEC-2023-0027.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -448,8 +448,8 @@ attacker-controlled value it was given&lt;/li&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0025: git-hash is unmaintained</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0025.html</id><updated>2023-03-24T12:00:00+00:00</updated><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0025.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0025: git-hash is unmaintained"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">Gitoxide has renamed its crates.</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/git-hash/RUSTSEC-2023-0025.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/git-hash/RUSTSEC-2023-0025.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/git-hash/RUSTSEC-2023-0025.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/git-hash/RUSTSEC-2023-0025.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -543,8 +543,8 @@ to using gix-hash to continue receiving updates.&lt;/p&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0026: git-path is unmaintained</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0026.html</id><updated>2023-03-24T12:00:00+00:00</updated><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0026.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0026: git-path is unmaintained"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">Gitoxide has renamed its crates.</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/git-path/RUSTSEC-2023-0026.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/git-path/RUSTSEC-2023-0026.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/git-path/RUSTSEC-2023-0026.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/git-path/RUSTSEC-2023-0026.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -638,8 +638,8 @@ to using gix-path to continue receiving updates.&lt;/p&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0028: buf_redux is unmaintained</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0028.html</id><updated>2023-03-24T12:00:00+00:00</updated><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0028.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0028: buf_redux is unmaintained"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">buf_redux is Unmaintained</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/buf_redux/RUSTSEC-2023-0028.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/buf_redux/RUSTSEC-2023-0028.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/buf_redux/RUSTSEC-2023-0028.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/buf_redux/RUSTSEC-2023-0028.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -743,8 +743,8 @@ to using gix-path to continue receiving updates.&lt;/p&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0022: Vulnerability in openssl</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0022.html</id><updated>2023-03-24T12:00:00+00:00</updated><category term="thread-safety"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0022.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0022: Vulnerability in openssl"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">`openssl` `X509NameBuilder::build` returned object is not thread safe</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0022.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0022.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0022.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0022.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -871,8 +871,8 @@ not modifying the value.&lt;/p&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0023: Vulnerability in openssl</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0023.html</id><updated>2023-03-24T12:00:00+00:00</updated><category term="file-disclosure"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0023.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0023: Vulnerability in openssl"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">`openssl` `SubjectAlternativeName` and `ExtendedKeyUsage::other` allow arbitrary file read</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0023.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0023.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0023.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0023.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -1008,8 +1008,8 @@ which can perform arbitrary file reads.&lt;/p&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0024: Vulnerability in openssl</title><id>https://threatcode.github.io/advisories/RUSTSEC-2023-0024.html</id><updated>2023-03-24T12:00:00+00:00</updated><category term="denial-of-service"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2023-0024.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0024: Vulnerability in openssl"/><published>2023-03-24T12:00:00+00:00</published><summary xml:lang="en">`openssl` `X509Extension::new` and `X509Extension::new_nid` null pointer dereference</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0024.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0024.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0024.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0024.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
@@ -1143,8 +1143,8 @@ which can perform arbitrary file reads.&lt;/p&gt;
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2022-0092: Unsoundness in rmp-serde</title><id>https://threatcode.github.io/advisories/RUSTSEC-2022-0092.html</id><updated>2023-03-22T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://threatcode.github.io/advisories/RUSTSEC-2022-0092.html" rel="alternate" type="text/html" title="RUSTSEC-2022-0092: Unsoundness in rmp-serde"/><published>2023-03-22T12:00:00+00:00</published><summary xml:lang="en">`rmp-serde` `Raw` and `RawRef` unsound</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/rmp-serde/RUSTSEC-2022-0092.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/rmp-serde/RUSTSEC-2022-0092.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/commits/main/crates/rmp-serde/RUSTSEC-2022-0092.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/threatcode/advisory-db/edit/main/crates/rmp-serde/RUSTSEC-2022-0092.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 

@@ -55,17 +55,17 @@
 <main class="static-page">
     <article>
         <h1>Reporting Vulnerabilities</h1>
-<p>To add an advisory to the RustSec database, open a <a href="https://github.com/RustSec/advisory-db/pulls">Pull Request</a> against
-<a href="https://github.com/RustSec/advisory-db">this</a> repository containing the new advisory:</p>
+<p>To add an advisory to the RustSec database, open a <a href="https://github.com/threatcode/advisory-db/pulls">Pull Request</a> against
+<a href="https://github.com/threatcode/advisory-db">this</a> repository containing the new advisory:</p>
 <h3>Required Steps</h3>
 <ol>
 <li>Create a file named <code>RUSTSEC-0000-0000.md</code> in the <code>crates/&lt;yourcratename&gt;</code>
 subdirectory of the repository (you may need to create it if it doesn't exist)</li>
-<li>Copy and paste the <a href="https://github.com/RustSec/advisory-db#advisory-format">TOML advisory template</a> from the README.md file in this repo.
+<li>Copy and paste the <a href="https://github.com/threatcode/advisory-db#advisory-format">TOML advisory template</a> from the README.md file in this repo.
 Delete the comments and additional whitespace, and fill it out with the
 details of the advisory. Surround the TOML data with <!-- raw HTML omitted -->```toml<!-- raw HTML omitted --> and <!-- raw HTML omitted -->```<!-- raw HTML omitted --> markers.</li>
 <li>Write a human-readable Markdown description in the same file, after the <!-- raw HTML omitted -->```<!-- raw HTML omitted --> marker and a newline. Use <a href="https://raw.githubusercontent.com/rustsec/advisory-db/main/EXAMPLE_ADVISORY.md">this example advisory</a> as a reference.</li>
-<li>Open a <a href="https://github.com/RustSec/advisory-db/pulls">Pull Request</a>. After being reviewed your advisory will be assigned
+<li>Open a <a href="https://github.com/threatcode/advisory-db/pulls">Pull Request</a>. After being reviewed your advisory will be assigned
 a <code>RUSTSEC-*</code> advisory identifier and be published to the database.</li>
 </ol>
 <h3>Optional Steps</h3>
@@ -102,7 +102,7 @@ vulnerabilities will be determined prior to merging. If a vulnerability
 turns out to be fake it will be removed from the database.</p>
 <p><strong>Q: Can I file an advisory without creating a pull request?</strong></p>
 <p>A: Yes, instead of creating a full advisory yourself you can also
-<a href="https://github.com/RustSec/advisory-db/issues">open an issue on the advisory-db repo</a>
+<a href="https://github.com/threatcode/advisory-db/issues">open an issue on the advisory-db repo</a>
 or email information about the vulnerability to
 <a href="mailto:rustsec@googlegroups.com">rustsec@googlegroups.com</a>.</p>
 <p><strong>Q: Does this project have a GPG key or other means of handling embargoed vulnerabilities?</strong></p>
