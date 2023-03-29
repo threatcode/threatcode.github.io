@@ -1,4 +1,4 @@
-# RustSec Advisory Database
+# Advisory Database
 
 [![Build Status][build-image]][build-link]
 ![Maintained: Q1 2023][maintained-image]
