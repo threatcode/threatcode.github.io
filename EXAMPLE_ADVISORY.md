@@ -28,7 +28,7 @@ This is an example template for a RustSec advisory. Please copy this to
 
 In this section of the advisory you can write an extended description
 of the vulnerability, will be converted into HTML and rendered at
-<https://rustsec.org>.
+<https://threatcode.github.io/advisory-db>.
 
 - Markdown formatted
 - TOML "front matter". See `README.md` for schema.

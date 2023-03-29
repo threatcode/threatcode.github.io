@@ -77,4 +77,4 @@ Please open a GitHub issue:
 
 [//]: # (links)
 
-[RustSec Advisory Database]: https://rustsec.org
+[RustSec Advisory Database]: https://threatcode.github.io/advisory-db

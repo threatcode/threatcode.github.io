@@ -6,7 +6,7 @@
 
 The RustSec Advisory Database is a repository of security advisories filed
 against Rust crates published via https://crates.io. A human-readable version
-of the advisory database can be found at https://rustsec.org/advisories/.
+of the advisory database can be found at https://threatcode.github.io/advisory-db/advisories/.
 
 We also [export](https://github.com/rustsec/advisory-db/tree/osv) data to the [OSV](https://github.com/ossf/osv-schema) format.
 All our data is available on [osv.dev](https://osv.dev/list?ecosystem=crates.io&q=)
@@ -30,7 +30,7 @@ To report a new vulnerability, open a pull request using the template below.
 See [CONTRIBUTING.md] for more information.
 
 <a href="https://github.com/RustSec/advisory-db/blob/main/CONTRIBUTING.md">
-  <img alt="Report Vulnerability" width="250px" height="60px" src="https://rustsec.org/img/report-vuln-button.svg">
+  <img alt="Report Vulnerability" width="250px" height="60px" src="https://threatcode.github.io/advisory-db/img/report-vuln-button.svg">
 </a>
 
 ## Advisory Format
