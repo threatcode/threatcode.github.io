@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: pypi
+        branch: pypi
     - uses: actions/setup-go@v2
       with:
         go-version: '^1.16.4'
