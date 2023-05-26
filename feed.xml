@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RustSec Advisories</title><id>https://rustsec.org/feed.xml</id><updated>2023-03-24T00:00:00+00:00</updated><author><name>RustSec</name></author><icon>https://rustsec.org/favicon.ico</icon><link href="https://rustsec.org/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rustsec.org/" rel="alternate" type="text/html"/><subtitle xml:lang="en">Security advisories filed against Rust crates</subtitle><entry><title>RUSTSEC-2023-0027: Vulnerability in async-nats</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0027.html</id><updated>2023-03-24T00:00:00+00:00</updated><category term="crypto-failure"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0027.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0027: Vulnerability in async-nats"/><published>2023-03-24T00:00:00+00:00</published><summary xml:lang="en">TLS certificate common name validation bypass</summary><content xml:lang="en" type="html">  &lt;article&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RustSec Advisories</title><id>https://rustsec.org/feed.xml</id><updated>2023-05-16T00:00:00+00:00</updated><author><name>RustSec</name></author><icon>https://rustsec.org/favicon.ico</icon><link href="https://rustsec.org/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rustsec.org/" rel="alternate" type="text/html"/><subtitle xml:lang="en">Security advisories filed against Rust crates</subtitle><entry><title>RUSTSEC-2023-0037: xsalsa20poly1305 is unmaintained</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0037.html</id><updated>2023-05-16T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0037.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0037: xsalsa20poly1305 is unmaintained"/><published>2023-05-16T00:00:00+00:00</published><summary xml:lang="en">crate has been renamed to `crypto_secretbox`</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/async-nats/RUSTSEC-2023-0027.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/async-nats/RUSTSEC-2023-0027.md&quot;&gt;Edit&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/xsalsa20poly1305/RUSTSEC-2023-0037.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/xsalsa20poly1305/RUSTSEC-2023-0037.md&quot;&gt;Edit&lt;/a&gt;
         &lt;/span&gt;
     
 
     &lt;header&gt;
       &lt;h1&gt;
         
-        RUSTSEC-2023-0027
+        RUSTSEC-2023-0037
         
       &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;TLS certificate common name validation bypass&lt;/p&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;crate has been renamed to &lt;code&gt;crypto_secretbox&lt;/code&gt;&lt;/p&gt;
 &lt;/span&gt;
     &lt;/header&gt;
 
@@ -22,8 +22,8 @@
     &lt;dl&gt;
       &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2023-03-24&quot;&gt;
-          March 24, 2023
+        &lt;time datetime=&quot;2023-05-16&quot;&gt;
+          May 16, 2023
         &lt;/time&gt;
       &lt;/dd&gt;
 
@@ -31,8 +31,218 @@
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/async-nats.html&quot;&gt;async-nats&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/async-nats&quot;&gt;crates.io&lt;/a&gt;)
+        &lt;a href=&quot;/packages/xsalsa20poly1305.html&quot;&gt;xsalsa20poly1305&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/xsalsa20poly1305&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unmaintained
+        
+      &lt;/dd&gt;
+
+      
+
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;a href=&quot;https://github.com/RustCrypto/AEADs/pull/525&quot;&gt;
+          https://github.com/RustCrypto/AEADs/pull/525
+        &lt;/a&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;This crate has been forked/renamed from &lt;code&gt;xsalsa20poly1305&lt;/code&gt; to &lt;code&gt;crypto_secretbox&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The new repository location is at:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/RustCrypto/nacl-compat/tree/master/crypto_secretbox&quot;&gt;https://github.com/RustCrypto/nacl-compat/tree/master/crypto_secretbox&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0035: Unsoundness in enumflags2</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0035.html</id><updated>2023-04-17T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0035.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0035: Unsoundness in enumflags2"/><published>2023-04-17T00:00:00+00:00</published><summary xml:lang="en">Adverserial use of `make_bitflags!` macro can cause undefined behavior</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/enumflags2/RUSTSEC-2023-0035.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/enumflags2/RUSTSEC-2023-0035.md&quot;&gt;Edit&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2023-0035
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Adverserial use of &lt;code&gt;make_bitflags!&lt;/code&gt; macro can cause undefined behavior&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2023-04-17&quot;&gt;
+          April 17, 2023
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/enumflags2.html&quot;&gt;enumflags2&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/enumflags2&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;a href=&quot;https://github.com/meithecatte/enumflags2/releases/tag/v0.7.7&quot;&gt;
+          https://github.com/meithecatte/enumflags2/releases/tag/v0.7.7
+        &lt;/a&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;gt;=0.7.7&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;lt;0.7.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;The macro relied on an expression of the form &lt;code&gt;Enum::Variant&lt;/code&gt; always being a
+variant of the enum. However, it may also be an associated integer constant, in
+which case there&apos;s no guarantee that the value of said constant consists only of
+bits valid for this bitflag type.&lt;/p&gt;
+&lt;p&gt;Thus, code like this could create an invalid &lt;code&gt;BitFlags&amp;lt;Test&amp;gt;&lt;/code&gt;, which would cause
+iterating over it to trigger undefined behavior. As the debug formatter
+internally iterates over the value, it is also affected.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-rust&quot;&gt;use enumflags2::{bitflags, make_bitflags};
+
+#[bitflags]
+#[repr(u8)]
+#[derive(Copy, Clone, Debug)]
+enum Test {
+    A = 1,
+    B = 2,
+}
+
+impl Test {
+    const C: u8 = 69;
+}
+
+fn main() {
+    let x = make_bitflags!(Test::{C});
+    // printing or iterating over x is UB
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0034: Vulnerability in h2</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0034.html</id><updated>2023-04-14T00:00:00+00:00</updated><category term="denial-of-service"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0034.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0034: Vulnerability in h2"/><published>2023-04-14T00:00:00+00:00</published><summary xml:lang="en">Resource exhaustion vulnerability in h2 may lead to Denial of Service (DoS)</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/h2/RUSTSEC-2023-0034.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/h2/RUSTSEC-2023-0034.md&quot;&gt;Edit&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2023-0034
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Resource exhaustion vulnerability in h2 may lead to Denial of Service (DoS)&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2023-04-14&quot;&gt;
+          April 14, 2023
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/h2.html&quot;&gt;h2&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/h2&quot;&gt;crates.io&lt;/a&gt;)
         
         
       &lt;/dd&gt;
@@ -49,7 +259,7 @@
       &lt;dd&gt;
         &lt;ul&gt;
           
-          &lt;li&gt;&lt;a href=&quot;/categories/crypto-failure.html&quot;&gt;crypto-failure&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/categories/denial-of-service.html&quot;&gt;denial-of-service&lt;/a&gt;&lt;/li&gt;
           
         &lt;/ul&gt;
       &lt;/dd&gt;
@@ -59,20 +269,41 @@
       &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
       &lt;dd&gt;
         
-          &lt;a href=&quot;/keywords/tls.html&quot;&gt;#tls&lt;/a&gt;
+          &lt;a href=&quot;/keywords/http.html&quot;&gt;#http&lt;/a&gt;
         
-          &lt;a href=&quot;/keywords/mitm.html&quot;&gt;#mitm&lt;/a&gt;
+          &lt;a href=&quot;/keywords/http2.html&quot;&gt;#http2&lt;/a&gt;
+        
+          &lt;a href=&quot;/keywords/h2.html&quot;&gt;#h2&lt;/a&gt;
         
       &lt;/dd&gt;
       
 
       
+      &lt;dt id=&quot;aliases&quot;&gt;Aliases&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;
+            
+            &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-26964&quot;&gt;CVE-2023-26964&lt;/a&gt;
+            
+          &lt;/li&gt;
+          
+          &lt;li&gt;
+            
+            &lt;a href=&quot;https://github.com/advisories/GHSA-f8vr-r385-rh5r&quot;&gt;GHSA-f8vr-r385-rh5r&lt;/a&gt;
+            
+          &lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
 
       
       &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;a href=&quot;https://github.com/nats-io/nats.rs/commit/817a7b942c462fa9d9938dcb62124173634132fb#diff-767d442397fcaaf2f83e8f924d4a70317a2ce4703a49964d6007707949cfa5f5L303-R304&quot;&gt;
-          https://github.com/nats-io/nats.rs/commit/817a7b942c462fa9d9938dcb62124173634132fb#diff-767d442397fcaaf2f83e8f924d4a70317a2ce4703a49964d6007707949cfa5f5L303-R304
+        &lt;a href=&quot;https://github.com/hyperium/hyper/issues/2877&quot;&gt;
+          https://github.com/hyperium/hyper/issues/2877
         &lt;/a&gt;
       &lt;/dd&gt;
       
@@ -87,7 +318,7 @@
         
         &lt;ul&gt;
           
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.29.0&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.17&lt;/code&gt;&lt;/li&gt;
           
         &lt;/ul&gt;
         
@@ -103,27 +334,301 @@
     
 
     &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;The NATS official Rust clients are vulnerable to MitM when using TLS.&lt;/p&gt;
-&lt;p&gt;The common name of the server&apos;s TLS certificate is validated against
-the &lt;code&gt;host&lt;/code&gt;name provided by the server&apos;s plaintext &lt;code&gt;INFO&lt;/code&gt; message
-during the initial connection setup phase. A MitM proxy can tamper with
-the &lt;code&gt;host&lt;/code&gt; field&apos;s value by substituting it with the common name of a
-valid certificate it controls, fooling the client into accepting it.&lt;/p&gt;
-&lt;h2&gt;Reproduction steps&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The NATS Rust client tries to establish a new connection&lt;/li&gt;
-&lt;li&gt;The connection is intercepted by a MitM proxy&lt;/li&gt;
-&lt;li&gt;The proxy makes a separate connection to the NATS server&lt;/li&gt;
-&lt;li&gt;The NATS server replies with an &lt;code&gt;INFO&lt;/code&gt; message&lt;/li&gt;
-&lt;li&gt;The proxy reads the &lt;code&gt;INFO&lt;/code&gt;, alters the &lt;code&gt;host&lt;/code&gt; JSON field and passes
-the tampered &lt;code&gt;INFO&lt;/code&gt; back to the client&lt;/li&gt;
-&lt;li&gt;The proxy upgrades the client connection to TLS, presenting a certificate issued
-by a certificate authority present in the client&apos;s keychain.
-In the previous step the &lt;code&gt;host&lt;/code&gt; was set to the common name of said certificate&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rustls&lt;/code&gt; accepts the certificate, having verified that the common name matches the
-attacker-controlled value it was given&lt;/li&gt;
-&lt;li&gt;The client has been fooled by the MitM proxy into accepting the attacker-controlled certificate&lt;/li&gt;
-&lt;/ol&gt;
+    &lt;p&gt;If an attacker is able to flood the network with pairs of &lt;code&gt;HEADERS&lt;/code&gt;/&lt;code&gt;RST_STREAM&lt;/code&gt; frames, such that the &lt;code&gt;h2&lt;/code&gt; application is not able to accept them faster than the bytes are received, the pending accept queue can grow in memory usage. Being able to do this consistently can result in excessive memory use, and eventually trigger Out Of Memory.&lt;/p&gt;
+&lt;p&gt;This flaw is corrected in &lt;a href=&quot;https://github.com/hyperium/h2/pull/668&quot;&gt;hyperium/h2#668&lt;/a&gt;, which restricts remote reset stream count by default.&lt;/p&gt;
+
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0033: Unsoundness in borsh</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0033.html</id><updated>2023-04-12T00:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0033.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0033: Unsoundness in borsh"/><published>2023-04-12T00:00:00+00:00</published><summary xml:lang="en">Parsing borsh messages with ZST which are not-copy/clone is unsound</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/borsh/RUSTSEC-2023-0033.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/borsh/RUSTSEC-2023-0033.md&quot;&gt;Edit&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2023-0033
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Parsing borsh messages with ZST which are not-copy/clone is unsound&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2023-04-12&quot;&gt;
+          April 12, 2023
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/borsh.html&quot;&gt;borsh&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/borsh&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;a href=&quot;https://github.com/near/borsh-rs/issues/19&quot;&gt;
+          https://github.com/near/borsh-rs/issues/19
+        &lt;/a&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;Affected versions of borsh cause undefined behavior when zero-sized-types (ZST)
+are parsed and the Copy/Clone traits are not implemented/derived.
+For instance if 1000 instances of a ZST are deserialized, and the ZST is not copy
+(this can be achieved through a singleton), then accessing/writing to deserialized
+data will cause a segmentation fault.&lt;/p&gt;
+&lt;p&gt;There is currently no way for borsh to read data without also providing a Rust type.
+Therefore, if not ZST are used for serialization, then you are not affected by this issue.&lt;/p&gt;
+
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0036: tree_magic is unmaintained</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0036.html</id><updated>2023-04-11T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0036.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0036: tree_magic is unmaintained"/><published>2023-04-11T00:00:00+00:00</published><summary xml:lang="en">tree_magic is Unmaintained</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/tree_magic/RUSTSEC-2023-0036.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/tree_magic/RUSTSEC-2023-0036.md&quot;&gt;Edit&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2023-0036
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;tree_magic is Unmaintained&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2023-04-11&quot;&gt;
+          April 11, 2023
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/tree_magic.html&quot;&gt;tree_magic&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/tree_magic&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unmaintained
+        
+      &lt;/dd&gt;
+
+      
+
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;a href=&quot;https://github.com/aahancoc/tree_magic/issues/16&quot;&gt;
+          https://github.com/aahancoc/tree_magic/issues/16
+        &lt;/a&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;The &lt;code&gt;tree_magic&lt;/code&gt; crate is unmaintained. The author has archived the github
+repository.&lt;/p&gt;
+&lt;p&gt;Alternatives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://crates.io/crates/tree_magic_mini&quot;&gt;tree_magic_mini&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0031: Unsoundness in spin</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0031.html</id><updated>2023-03-31T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0031.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0031: Unsoundness in spin"/><published>2023-03-31T00:00:00+00:00</published><summary xml:lang="en">Initialisation failure in `Once::try_call_once` can lead to undefined behaviour for other initialisers</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/spin/RUSTSEC-2023-0031.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/spin/RUSTSEC-2023-0031.md&quot;&gt;Edit&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2023-0031
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Initialisation failure in &lt;code&gt;Once::try_call_once&lt;/code&gt; can lead to undefined behaviour for other initialisers&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2023-03-31&quot;&gt;
+          March 31, 2023
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/spin.html&quot;&gt;spin&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/spin&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;a href=&quot;https://github.com/mvdnes/spin-rs/issues/148&quot;&gt;
+          https://github.com/mvdnes/spin-rs/issues/148
+        &lt;/a&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;gt;=0.9.8&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;lt;0.9.3&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;&lt;code&gt;Once::try_call_once&lt;/code&gt; is unsound if invoked more than once concurrently and any call fails to initialise successfully.&lt;/p&gt;
 
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0030: Vulnerability in versionize</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0030.html</id><updated>2023-03-24T00:00:00+00:00</updated><category term="memory-exposure"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0030.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0030: Vulnerability in versionize"/><published>2023-03-24T00:00:00+00:00</published><summary xml:lang="en">`Versionize::deserialize` implementation for `FamStructWrapper&amp;lt;T&amp;gt;` is lacking bound checks, potentially leading to out of bounds memory accesses</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
@@ -293,133 +798,6 @@ attacker-controlled value it was given&lt;/li&gt;
 
     &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
     &lt;p&gt;An issue was discovered in the &lt;code&gt;Versionize::deserialize&lt;/code&gt; implementation provided by the &lt;code&gt;versionize&lt;/code&gt; crate for &lt;code&gt;vmm_sys_util::fam::FamStructWrapper&lt;/code&gt;, which can lead to out of bounds memory accesses. The impact started with version 0.1.1. The issue was corrected in version 0.1.10 by inserting a check that verifies, for any deserialized header, the lengths of compared flexible arrays are equal and aborting deserialization otherwise.&lt;/p&gt;
-
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0029: Vulnerability in nats</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0029.html</id><updated>2023-03-24T00:00:00+00:00</updated><category term="crypto-failure"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0029.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0029: Vulnerability in nats"/><published>2023-03-24T00:00:00+00:00</published><summary xml:lang="en">TLS certificate common name validation bypass</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/nats/RUSTSEC-2023-0029.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/nats/RUSTSEC-2023-0029.md&quot;&gt;Edit&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0029
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;TLS certificate common name validation bypass&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-03-24&quot;&gt;
-          March 24, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/nats.html&quot;&gt;nats&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/nats&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        Vulnerability
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;a href=&quot;/categories/crypto-failure.html&quot;&gt;crypto-failure&lt;/a&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/tls.html&quot;&gt;#tls&lt;/a&gt;
-        
-          &lt;a href=&quot;/keywords/mitm.html&quot;&gt;#mitm&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        no patched versions
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.9.0&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;The NATS official Rust clients are vulnerable to MitM when using TLS.&lt;/p&gt;
-&lt;p&gt;A fix for the &lt;code&gt;nats&lt;/code&gt; crate hasn&apos;t been released yet. Since the &lt;code&gt;nats&lt;/code&gt; crate
-is going to be deprecated anyway, consider switching to &lt;code&gt;async-nats&lt;/code&gt; &lt;code&gt;&amp;gt;= 0.29&lt;/code&gt;
-which already fixed this vulnerability.&lt;/p&gt;
-&lt;p&gt;The common name of the server&apos;s TLS certificate is validated against
-the &lt;code&gt;host&lt;/code&gt;name provided by the server&apos;s plaintext &lt;code&gt;INFO&lt;/code&gt; message
-during the initial connection setup phase. A MitM proxy can tamper with
-the &lt;code&gt;host&lt;/code&gt; field&apos;s value by substituting it with the common name of a
-valid certificate it controls, fooling the client into accepting it.&lt;/p&gt;
-&lt;h2&gt;Reproduction steps&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The NATS Rust client tries to establish a new connection&lt;/li&gt;
-&lt;li&gt;The connection is intercepted by a MitM proxy&lt;/li&gt;
-&lt;li&gt;The proxy makes a separate connection to the NATS server&lt;/li&gt;
-&lt;li&gt;The NATS server replies with an &lt;code&gt;INFO&lt;/code&gt; message&lt;/li&gt;
-&lt;li&gt;The proxy reads the &lt;code&gt;INFO&lt;/code&gt;, alters the &lt;code&gt;host&lt;/code&gt; JSON field and passes
-the tampered &lt;code&gt;INFO&lt;/code&gt; back to the client&lt;/li&gt;
-&lt;li&gt;The proxy upgrades the client connection to TLS, presenting a certificate issued
-by a certificate authority present in the client&apos;s keychain.
-In the previous step the &lt;code&gt;host&lt;/code&gt; was set to the common name of said certificate&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rustls&lt;/code&gt; accepts the certificate, having verified that the common name matches the
-attacker-controlled value it was given&lt;/li&gt;
-&lt;li&gt;The client has been fooled by the MitM proxy into accepting the attacker-controlled certificate&lt;/li&gt;
-&lt;/ol&gt;
 
   &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0022: Vulnerability in openssl</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0022.html</id><updated>2023-03-24T00:00:00+00:00</updated><category term="thread-safety"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0022.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0022: Vulnerability in openssl"/><published>2023-03-24T00:00:00+00:00</published><summary xml:lang="en">`openssl` `X509NameBuilder::build` returned object is not thread safe</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
@@ -796,384 +1174,5 @@ which can perform arbitrary file reads.&lt;/p&gt;
     &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
     &lt;p&gt;These functions would crash when the context argument was None with certain extension types.&lt;/p&gt;
 &lt;p&gt;Thanks to David Benjamin (Google) for reporting this issue.&lt;/p&gt;
-
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0021: Vulnerability in stb_image</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0021.html</id><updated>2023-03-19T00:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0021.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0021: Vulnerability in stb_image"/><published>2023-03-19T00:00:00+00:00</published><summary xml:lang="en">NULL pointer derefernce in `stb_image`</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/stb_image/RUSTSEC-2023-0021.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/stb_image/RUSTSEC-2023-0021.md&quot;&gt;Edit&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0021
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;NULL pointer derefernce in &lt;code&gt;stb_image&lt;/code&gt;&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-03-19&quot;&gt;
-          March 19, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/stb_image.html&quot;&gt;stb_image&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/stb_image&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        Vulnerability
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/NULL-pointer-dereference.html&quot;&gt;#NULL-pointer-dereference&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;a href=&quot;https://github.com/servo/rust-stb-image/pull/102&quot;&gt;
-          https://github.com/servo/rust-stb-image/pull/102
-        &lt;/a&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.5&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;A bug in error handling in the &lt;code&gt;stb_image&lt;/code&gt; C library could cause a NULL pointer dereference when attempting to load an invalid or unsupported image file.  This is fixed in version 0.2.5 and later of the &lt;code&gt;stb_image&lt;/code&gt; Rust crate, by patching the C code to correctly handle NULL pointers.&lt;/p&gt;
-&lt;p&gt;Thank you to GitHub user 0xdd96 for finding and fixing this vulnerability.&lt;/p&gt;
-
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0025: git-hash is unmaintained</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0025.html</id><updated>2023-03-14T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0025.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0025: git-hash is unmaintained"/><published>2023-03-14T00:00:00+00:00</published><summary xml:lang="en">Gitoxide has renamed its crates.</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/git-hash/RUSTSEC-2023-0025.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/git-hash/RUSTSEC-2023-0025.md&quot;&gt;Edit&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0025
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Gitoxide has renamed its crates.&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-03-14&quot;&gt;
-          March 14, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/git-hash.html&quot;&gt;git-hash&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/git-hash&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unmaintained
-        
-      &lt;/dd&gt;
-
-      
-
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;a href=&quot;https://github.com/Byron/gitoxide/pull/741&quot;&gt;
-          https://github.com/Byron/gitoxide/pull/741
-        &lt;/a&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        no patched versions
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;All crates in the gitoxide project have been renamed from git-&lt;!-- raw HTML omitted --&gt; to
-gix-&lt;!-- raw HTML omitted --&gt;. The git- prefixed crates are no longer being updated. Switch
-to using gix-hash to continue receiving updates.&lt;/p&gt;
-
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0026: git-path is unmaintained</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0026.html</id><updated>2023-03-14T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0026.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0026: git-path is unmaintained"/><published>2023-03-14T00:00:00+00:00</published><summary xml:lang="en">Gitoxide has renamed its crates.</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/git-path/RUSTSEC-2023-0026.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/git-path/RUSTSEC-2023-0026.md&quot;&gt;Edit&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0026
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Gitoxide has renamed its crates.&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-03-14&quot;&gt;
-          March 14, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/git-path.html&quot;&gt;git-path&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/git-path&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unmaintained
-        
-      &lt;/dd&gt;
-
-      
-
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;a href=&quot;https://github.com/Byron/gitoxide/pull/741&quot;&gt;
-          https://github.com/Byron/gitoxide/pull/741
-        &lt;/a&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        no patched versions
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;All crates in the gitoxide project have been renamed from git-&lt;!-- raw HTML omitted --&gt; to
-gix-&lt;!-- raw HTML omitted --&gt;. The git- prefixed crates are no longer being updated. Switch
-to using gix-path to continue receiving updates.&lt;/p&gt;
-
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0020: Unsoundness in const-cstr</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0020.html</id><updated>2023-03-12T00:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0020.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0020: Unsoundness in const-cstr"/><published>2023-03-12T00:00:00+00:00</published><summary xml:lang="en">const-cstr is Unmaintained</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/const-cstr/RUSTSEC-2023-0020.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/const-cstr/RUSTSEC-2023-0020.md&quot;&gt;Edit&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0020
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;const-cstr is Unmaintained&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-03-12&quot;&gt;
-          March 12, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/const-cstr.html&quot;&gt;const-cstr&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/const-cstr&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unsound
-        
-      &lt;/dd&gt;
-
-      
-
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;a href=&quot;https://github.com/abonander/const-cstr&quot;&gt;
-          https://github.com/abonander/const-cstr
-        &lt;/a&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        no patched versions
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;Last release was about five years ago.&lt;/p&gt;
-&lt;p&gt;The maintainer(s) have been unreachable to respond to any issues that may or may not include security issues.&lt;/p&gt;
-&lt;p&gt;The repository is now archived and there is no security policy in place to contact the maintainer(s) otherwise.&lt;/p&gt;
-&lt;p&gt;No direct fork exist.&lt;/p&gt;
-&lt;h1&gt;const-cstr is Unsound&lt;/h1&gt;
-&lt;p&gt;The crate violates the safety contract of &lt;a href=&quot;https://doc.rust-lang.org/std/ffi/struct.CStr.html#method.from_bytes_with_nul_unchecked&quot;&gt;ffi::CStr::from_bytes_with_nul_unchecked&lt;/a&gt; used in &lt;code&gt;ConstCStr::as_cstr&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;No interior nul bytes checking is done either by the constructor or the canonical macro to create the &lt;code&gt;ConstCStr&lt;/code&gt;&lt;/p&gt;
-&lt;h1&gt;const-cstr Panic&lt;/h1&gt;
-&lt;p&gt;Additionally the crate may cause runtime panics if statically compiled and ran with any untrusted data that is not nul-terminated.&lt;/p&gt;
-&lt;p&gt;This is however unlikely but the the crate should not be used for untrusted data in context where panic may create a DoS vector.&lt;/p&gt;
-&lt;h2&gt;Possible Alternatives&lt;/h2&gt;
-&lt;p&gt;The below may or may not provide alternative(s)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.rs/const-str/latest/const_str/macro.cstr.html&quot;&gt;const_str::cstr!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://crates.io/crates/cstr&quot;&gt;cstr::cstr!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
   &lt;/article&gt;</content></entry></feed>
